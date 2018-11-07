@@ -1,0 +1,51 @@
+var fieldY = new Swiper('.pc_pc_pc', {
+  slidesPerView:4,
+  breakpoints:{
+    1920:{
+      slidesPerView:4,
+    },
+    1199:{
+      slidesPerView:3,
+    },
+    992:{
+      slidesPerView:2,
+    },
+    768:{
+      slidesPerView:1,
+    },
+  }
+});
+$(".gt-2").click(function(){
+	$(".one-2>li").toggleClass("off-2");
+})
+$(".jc-2").click(function(){
+	$(".two-2>li").toggleClass("off-2");
+})
+$(".perform-2").click(function(){
+	$(".three-2>li").toggleClass("off-2");
+})
+$(".delivery-2").click(function(){
+	$(".four-2>li").toggleClass("off-2");
+})
+$(".after-2").click(function(){
+	$(".five-2>li").toggleClass("off-2");
+})
+
+
+var case_contantY = new Swiper('.case_contant-2', {
+  slidesPerView:4,
+  breakpoints:{
+    1920:{
+      slidesPerView:4,
+    },
+    1199:{
+      slidesPerView:3,
+    },
+    992:{
+      slidesPerView:2,
+    },
+    768:{
+      slidesPerView:1,
+    },
+  }
+});
